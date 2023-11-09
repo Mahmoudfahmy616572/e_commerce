@@ -2,6 +2,7 @@
 
 import 'package:e_commerce/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 ThemeData themeData() {
   return ThemeData(
@@ -37,13 +38,12 @@ TextTheme textTheme() {
 AppBarTheme appBarTheme() {
   return const AppBarTheme(
       color: Colors.white,
-      brightness: Brightness.light,
       elevation: 0,
       iconTheme: IconThemeData(color: Colors.black),
       titleTextStyle: TextStyle(
         color: Color(0XFF8B8B8B),
         fontSize: 18,
-      ),
-      textTheme: TextTheme(
-          headline6: TextStyle(color: Color(0XFF8B8B8B), fontSize: 18)));
+      ));
+      // textTheme: TextTheme(
+      //     headline6: TextStyle(color: Color(0XFF8B8B8B), fontSize: 18)), systemOverlayStyle: SystemUiOverlayStyle.dark);
 }

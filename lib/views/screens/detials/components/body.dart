@@ -1,5 +1,4 @@
 import 'package:e_commerce/size_config.dart';
-import 'package:e_commerce/views/screens/cart/cart_screen.dart';
 import 'package:e_commerce/views/screens/detials/components/toggel_see_more.dart';
 import 'package:e_commerce/views/screens/home/components/product_list.dart';
 import 'package:flutter/material.dart';

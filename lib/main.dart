@@ -1,7 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:e_commerce/routs.dart';
-import 'package:e_commerce/views/screens/profile/profile_screen.dart';
 import 'package:e_commerce/views/screens/splash/splash_screen.dart';
 import 'package:e_commerce/views/shared/thems.dart';
 import 'package:flutter/material.dart';

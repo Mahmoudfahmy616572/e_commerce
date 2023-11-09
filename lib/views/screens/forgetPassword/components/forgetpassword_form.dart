@@ -17,6 +17,7 @@ class _ForgetPasswordFormState extends State<ForgetPasswordForm> {
   @override
   Widget build(BuildContext context) {
     final List<String> errors = [];
+    // ignore: unused_local_variable
     String email;
 
     void addError({String? error}) {
