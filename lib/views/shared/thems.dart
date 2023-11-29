@@ -2,8 +2,6 @@
 
 import 'package:e_commerce/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
 ThemeData themeData() {
   return ThemeData(
       scaffoldBackgroundColor: Colors.white,
@@ -44,6 +42,6 @@ AppBarTheme appBarTheme() {
         color: Color(0XFF8B8B8B),
         fontSize: 18,
       ));
-      // textTheme: TextTheme(
-      //     headline6: TextStyle(color: Color(0XFF8B8B8B), fontSize: 18)), systemOverlayStyle: SystemUiOverlayStyle.dark);
+  // textTheme: TextTheme(
+  //     headline6: TextStyle(color: Color(0XFF8B8B8B), fontSize: 18)), systemOverlayStyle: SystemUiOverlayStyle.dark);
 }
